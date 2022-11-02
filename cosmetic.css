@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 60px;
+}
+
+.nav-item .nav-link {
+    padding-right: 50px !important;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: hsl(42deg 84% 63%) !important;
+    font-weight: 400;
+}
+
+.basket {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 7px;
+    border: 1px solid hsl(42deg 84% 63%);
+    background-color: hsl(42deg 84% 63%);
+}
+
+.fa-shopping-basket {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 50px !important;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #6c757d !important;
+}
+
+.banner-btn {
+    padding: 10px 12px !important;
+}
+
+.play {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    border: 1px solid hsl(42deg 84% 63%);
+    border-radius: 50%;
+    background-color: hsl(42deg 84% 63%);
+}
+
+.fa-play {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 70vh !important;
+    object-fit: contain;
+}
+
+.owl-carousel .owl-item img {
+    height: 55vh;
+    object-fit: contain;
+}
+
+.body-lotion,
+.body-shampoo,
+.body-oil,
+.body-cream {
+    background-color: hsl(36deg 51% 83%);
+}
+
+.gmo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid crimson;
+    border-radius: 50%;
+}
+
+.gmo-png {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 11px;
+    left: 11px;
+}
+
+.body-care {
+    width: 100%;
+    height: 50vh;
+    object-fit: contain;
+}
+
+.collection img {
+    width: 100%;
+    height: 70vh;
+}
+
+.collection h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.collection p {
+    font-size: 18px;
+}
+
+.news {
+    background-color: hsl(40deg 100% 98%);
+}
+
+.news img {
+    width: 100%;
+    height: auto;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+.brands {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(42deg 84% 63%);
+    background-color: hsl(42deg 84% 63%);
+    border-radius: 50%;
+}
+
+.offer {
+    padding-left: 5% !important;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.app img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .banner h1 {
+        font-size: 40px !important;
+    }
+
+    .banner p {
+        font-size: 16px !important;
+    }
+
+    .banner-btn {
+        padding: 8px 10px !important;
+    }
+
+    .banner-img {
+        height: 50vh !important;
+    }
+
+    .play {
+        width: 45px;
+        height: 45px;
+    }
+
+    .fa-play {
+        top: 14px;
+        left: 18px;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 45vh;
+        object-fit: contain;
+    }
+
+    .body-care {
+        height: 45vh;
+        object-fit: contain;
+    }
+
+    .collection h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .collection p {
+        font-size: 17px;
+    }
+
+    .collection img {
+        height: 40vh;
+    }
+
+    .news img {
+        height: 30vh;
+        object-fit: contain;
+    }
+
+    .app img {
+        width: 50%;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:767px) {
+
+    .banner h1 {
+        font-size: 45px !important;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+
+    .play {
+        width: 55px;
+        height: 55px;
+    }
+
+    .fa-play {
+        top: 18px;
+        left: 23px;
+    }
+
+    .banner-img {
+        height: 55vh !important;
+    }
+
+    .card {
+        height: 45vh;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 45vh !important;
+        object-fit: contain;
+    }
+
+    .body-care {
+        height: 33vh;
+    }
+
+    .collection img {
+        height: 45vh;
+    }
+
+    .collection h1 {
+        font-size: 42px;
+    }
+
+    .collection p {
+        font-size: 20px;
+    }
+
+    .news img {
+        height: 30vh;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .banner h1 {
+        font-size: 45px !important;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+
+    .play {
+        width: 55px;
+        height: 55px;
+    }
+
+    .fa-play {
+        top: 18px;
+        left: 23px;
+    }
+
+    .banner-img {
+        height: 40vh !important;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 25vh !important;
+        object-fit: contain;
+    }
+
+    .card {
+        height: 40vh;
+    }
+
+    .body-care {
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .collection img {
+        height: 40vh;
+    }
+
+    .collection h1 {
+        font-size: 42px;
+    }
+
+    .collection p {
+        font-size: 18px;
+    }
+
+    .news img {
+        height: 30vh;
+        object-fit: contain;
+    }
+}
